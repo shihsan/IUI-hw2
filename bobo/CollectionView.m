@@ -6,10 +6,13 @@
 //  Copyright (c) 2014年 施亦宣. All rights reserved.
 //
 
-#import "ColletionView.h"
+#import "CollectionView.h"
+@interface CollectionView ()
+@end
 
-@implementation ColletionView
+@implementation CollectionView
 
+/*
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -18,6 +21,7 @@
     }
     return self;
 }
+*/
 
 /*
 // Only override drawRect: if you perform custom drawing.

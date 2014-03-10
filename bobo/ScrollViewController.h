@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ScrollViewController : UIViewController
+@interface ScrollViewController : UIViewController <UIScrollViewDelegate>
+@property (strong, nonatomic) IBOutlet UIScrollView *MyScrollView;
+@property (strong, nonatomic) IBOutlet UIImageView *Scroll_Image;
+@property (strong, nonatomic) IBOutlet UINavigationBar *NavBar;
+
 
 @end

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CollectionView.h"
+
+static NSString *CollectionViewCellIdentifier = @"CollectionCell";
 
 @interface TableCell2 : UITableViewCell
+
 
 @end
